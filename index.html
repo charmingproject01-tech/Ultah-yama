@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Birthday Nisyama</title>
+
+
+  <!-- BOOTSTRAP -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+
+  <!-- FONT -->
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playfair+Display:ital,wght@0,600;1,600&display=swap" rel="stylesheet">
+
+  <!-- CSS KAMU -->
+  <link rel="stylesheet" href="style.css">
+
+<!--font awesome-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+<!-- Aos -->
+<link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
+<script src="gallery-scroll.js"></script>
+
+<script src="scroll-zoom.js"></script>
+
+<script src="gift.js"></script>
+
+</head>
+
+<body>
+
+
+<section class="cover" id="tampilanAwal">
+
+  <!-- VIDEO -->
+  <video 
+    id="coverVideo"
+    playsinline
+    webkit-playsinline
+    preload="auto"
+    poster="assets/gallery/cover.jpeg"
+  >
+    <source src="./assets/video/video.mp4" type="video/mp4">
+  </video>
+
+  <!-- OVERLAY -->
+  <div class="overlay"></div>
+
+  <!-- CONTENT -->
+  <div class="cover-content">
+
+    <p class="subtitle zoom1">
+      BIRTHDAY PARTY
+    </p>
+
+    <h1 class="title zoom2">
+      NISYAMA
+    </h1>
+
+    <div class="guest zoom3">
+      <p>To</p>
+      <h5 id="namaTamu">Nama Tamu</h5>
+    </div>
+
+    <!-- BUTTON -->
+    <button class="open-btn zoom4" id="btnBuka">
+      <i class="bi bi-envelope-open"></i>
+      open invite
+    </button>
+
+  </div>
+
+    </div>
+
+</div>
+
+</section>
+
+<!-- MUSIC -->
+<audio id="bgMusic" loop>
+  <source src="assets/audio/music.mp3" type="audio/mp3">
+</audio>
+
+
+
+<!-- SECTION MEMPELAI -->
+<section class="mempelai">
+
+  <!-- FLOWER ATAS -->
+  <img src="assets/gallery/bunga atas mempelai.png" class="flower flower-top" alt="">
+
+  <!-- FLOWER BAWAH -->
+  <img src="assets/gallery/bunga bawah mempelai.png" class="flower flower-bottom" alt="">
+
+  <div class="mempelai-content">
+
+    <span class="subtitle-mempelai">
+      Hay Teman-teman
+    </span>
+
+    <p class="desc">
+      Datang ya ke acara ulang tahun ku yang ke 1 tahun
+    </p>
+
+
+    <!-- MEMPELAI WANITA -->
+    <div class="card-mempelai">
+
+      <div class="foto-wrap">
+        <img src="assets/gallery/pengantin wanita.jpeg" alt="">
+      </div>
+
+      <h3>Nisyama Putri Ruis</h3>
+
+
+   
+    </div>
+    
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- COUNTDOWN SECTION -->
+<section class="countdown-section">
+
+  <!-- BACKGROUND DARI KAMU -->
+  <img src="assets/gallery/countdown.jpeg" class="countdown-bg" alt="background">
+
+  <!-- OVERLAY -->
+  <div class="countdown-overlay"></div>
+
+  <!-- CONTENT -->
+  <div class="countdown-content">
+
+   
+
+    <h2 class="title-countdown">
+      Countdown
+    </h2>
+
+    <p class="subtitle-countdown">
+      Hitung Mundur Hari Ulang Tahun ku
+    </p>
+
+    <!-- COUNTDOWN -->
+    <div class="countdown-box">
+
+      <div class="time">
+        <span id="days">00</span>
+        <small>Hari</small>
+      </div>
+
+      <div class="time">
+        <span id="hours">00</span>
+        <small>Jam</small>
+      </div>
+
+      <div class="time">
+        <span id="minutes">00</span>
+        <small>Menit</small>
+      </div>
+
+      <div class="time">
+        <span id="seconds">00</span>
+        <small>Detik</small>
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- =========================
+     AKAD & RESEPSI SECTION
+========================= -->
+
+<section class="event-section">
+
+  <!-- AKAD -->
+  <div class="event-card fade-up">
+
+    <!-- background lonjong dari kamu -->
+    <img src="assets/gallery/akad resepsi.jpeg" class="event-bg" alt="akad">
+
+    <div class="event-overlay"></div>
+
+    <div class="event-content">
+
+      <h2>Detail Acara</h2>
+
+      <p class="event-date">
+        Minggu, 18 Oktober 2026
+      </p>
+
+      <p class="event-time">
+        09.00 WIB s.d Selesai
+      </p>
+
+      <div class="event-icon">
+        <i class="bi bi-geo-alt-fill"></i>
+      </div>
+
+      <h3>Di rumah ku</h3>
+
+      <p class="event-address">
+        Ina Housing 5, blok E No.7
+      </p>
+
+      <a href="https://maps.app.goo.gl/gjdgD8PxcisqbhwUA?g_st=ic" class="maps-btn">
+        <i class="bi bi-geo-alt-fill"></i>
+        Google Maps
+      </a>
+
+    </div>
+
+  </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+
+
+<!-- =========================
+OUR GALLERY
+========================= -->
+
+<section class="gallery-section">
+
+  <div class="gallery-container">
+
+    <span class="gallery-subtitle">Gallery Yama</span>
+
+    
+
+    <!-- GRID FOTO -->
+    <div class="gallery-grid">
+
+      <div class="gallery-item big reveal">
+        <img src="assets/gallery/foto 1.jpeg" alt="">
+      </div>
+
+      <div class="gallery-item reveal">
+        <img src="assets/gallery/foto 2.jpeg" alt="">
+      </div>
+
+      <div class="gallery-item reveal">
+        <img src="assets/gallery/foto 3.jpeg" alt="">
+      </div>
+
+      <div class="gallery-item reveal">
+        <img src="assets/gallery/foto 4.jpeg" alt="">
+      </div>
+
+      <div class="gallery-item wide reveal">
+        <img src="assets/gallery/foto 5.jpeg" alt="">
+      </div>
+
+      <div class="gallery-item reveal">
+        <img src="assets/gallery/foto 6.jpeg" alt="">
+      </div>
+
+      <div class="gallery-item reveal">
+        <img src="assets/gallery/foto 7.jpeg" alt="">
+      </div>
+
+      <div class="gallery-item reveal">
+        <img src="assets/gallery/foto 8.jpeg" alt="">
+      </div>
+
+      <div class="gallery-item reveal">
+        <img src="assets/gallery/foto 9.jpeg" alt="">
+      </div>
+
+      <div class="gallery-item wide reveal">
+        <img src="assets/gallery/foto 10.jpeg" alt="">
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+
+
+
+
+
+
+<!-- SECTION PENUTUP -->
+<section class="closing">
+
+  <div class="closing-content">
+
+    <h2>Jangan Lupa Datang ya</h2>
+
+
+  </div>
+
+</section>
+ 
+<!-- POPUP GALLERY -->
+<div class="gallery-popup" id="galleryPopup">
+
+  <span id="closeGallery" class="close-popup">&times;</span>
+
+  <span class="prev-photo">&#10094;</span>
+
+  <img src="" id="popupImg">
+
+  <span class="next-photo">&#10095;</span>
+
+</div>
+
+<!-- BOOTSTRAP JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- JS KAMU -->
+  <script src="script.js"></script>
+
+
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+<script>
+  AOS.init({
+    duration: 900,
+    once: true
+  });
+</script>
+<script src="rsvp.js"></script>
+</body>
+</html>
